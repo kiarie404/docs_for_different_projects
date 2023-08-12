@@ -1,3 +1,5 @@
+# Wasmi
+
 # Hosting off the browser
 
 ## Let's first discuss the wasmi-core crate
@@ -28,10 +30,6 @@ This errors are advanced, pay no attention to them. Just know that the wasm code
 
 ## Time to discuss the wasmi crate
 wasmi abstracts the entire virtual machine. You can use this abstraction as a crate that can be embedded inside host code.  
-
-### Process
-1. fetch the wasm binary file. You may have to covert it from wat or a stream of bytes. 
-2. 
 
 
 
